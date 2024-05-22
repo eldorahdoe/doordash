@@ -1,0 +1,277 @@
+body {margin:0;
+padding:0;
+width:100%;
+height:100%;
+box-sizing: border-box;
+overflow-x:hidden;
+font-family:Verdana, Geneva, Tahoma, sans-serif;}
+:root{--btn-color:#eb1700;
+--btn-hovercolor:#dc1a04;
+--text-color:#fff;}
+#container{background-image: url("https://i.postimg.cc/MTNrjkpY/IMG-20231025-WA0009.jpg");
+background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  text-wrap: wrap;
+  height: 660px;
+}
+#heading-container{display:flex;
+justify-content:space-between;}
+
+
+#logo{display: flex;
+justify-content:center;
+width:70%;
+}
+#logo img{width:75px;
+height:70px;}
+#head-buttons{display: flex;
+}
+#sign-in {background-color: #eb1700;
+border:none;
+width:75px;
+height:40px;
+color:white;
+border-radius:20px;
+cursor:pointer;
+padding:10px 12px;
+font-size:12px;
+transition-duration: 0.3s;
+text-transform: capitalize;}
+#sign-in:hover{background-color: #dc1a04;}
+#sign-up {background-color: #fff;
+border:none;
+height:40px;
+width:70px;
+font-size:12px;
+border-radius:40px;
+padding:10px ;
+cursor:pointer;
+transition-duration: 0.3s;
+}
+#sign-up:hover{background-color:rgb(250, 250, 250);}
+#Form-Head h1{color:#fff;
+text-align:center;
+font-size:34px;}
+
+#Form-Head form input{width:250px;
+border:none;
+outline-color:blue;
+border-radius:30px;
+padding:20px 10px 20px 50px;}
+form {display:flex;
+justify-content:center;
+align-items: center;
+width:100%;
+border:none;
+border-radius:40px;
+outline:none;}
+
+#form-icon{width:350px;
+  height:30px;
+  background-color: white;
+  border-radius:30px;
+  display:flex;
+  align-items:center;
+  padding:10px;
+  }
+#form-icon .bi-geo-alt{color:grey;
+font-size:20px;
+font-weight:700;
+padding-left:10px;}
+
+#form-icon > input{flex: 1;
+height:10px;
+border:none;
+outline:none;
+font-size:18px;
+padding-left:10px;}
+
+#form-btn .bi-arrow-right-short{font-size:30px;
+font-weight:bolder;
+
+
+}
+#form-btn button{color:white;
+background-color: #eb1700;
+padding:2px 5px;
+border:none;
+border-radius:50%;
+cursor:pointer;
+}
+#sign, form{display:flex;
+justify-content: center;}
+.main-btn{background-color: var(--text-color);
+font-size:12px;
+font-weight:bold;
+border-radius:25px;
+padding:5px 15px;
+border:none;
+cursor:pointer;
+}
+.bi-person{font-size:20px;
+color:black;
+margin-top: -1px;
+vertical-align: middle;}
+
+#services{width:100%;
+display:flex;
+justify-content: space-around;
+flex-wrap:wrap;
+aspect-ratio: 16/1;}
+.services-subdiv{text-align:center;
+width:30%;}
+#services a {text-decoration: none;
+color:#dc1a04;
+font-weight:bold;}
+#restaurant{display:flex;
+flex-wrap:wrap;
+justify-content: space-around;
+background-color: #fff;
+width:100%;
+aspect-ratio: 16/7;
+}
+#rest-txt{width:25%;
+height:200px;
+text-wrap:wrap;
+}
+#img img{width:530px;
+height:420px;}
+#rest-txt h2{color:#000;
+font-size:30px;
+padding:0 40px 0 0;
+margin-bottom:25px;}
+#rest-txt p{font-size:1rem;
+line-height:25px;
+margin-bottom: 25px;;}
+#btns{background-color: #eb1700;
+color:white;
+border:none;
+border-radius:20px;
+width:200px;
+height:40px;
+cursor:pointer;
+font-weight: bold;
+font-size: 20px;
+text-wrap:nowrap;}
+#dashpass{background-color:rgb(255, 216, 222) ;
+display:flex;
+justify-content:space-around;
+align-items: center;}
+#groceries{position:relative;
+height:90vh;
+text-wrap:wrap;
+background-color: #000;
+text-align:center;
+color:white;
+}
+#groceries::before{background-image:url("https://i.postimg.cc/0yhBTRdZ/grocery-desktop.jpg" ) ;
+  content: "";
+background-size:cover;
+opacity:0.4;
+inset:0;
+position:absolute;
+}
+#groc-txt{isolation: isolate;}
+#to-do{background-color: rgb(255, 216, 222);
+  }
+#tdh{text-align: center;
+  width:30%;
+  margin:auto;}
+  #to-dos{background-color: rgb(255, 216, 222);
+    display:flex;
+    justify-content:space-around;
+  align-items: center;
+    }
+#to-do-txt{width:30%;
+text-align:center;}
+#to-do-txt img{width:350px;
+height:300px;}
+#opportunity #opp-h{text-align:center;
+width:40%;
+margin:auto;}
+#opp-txt{text-align:center;
+}
+#foot {background-color: black;
+color:white;
+display:flex;
+justify-content: space-between;
+padding:10px 100px 10px 10px;
+}
+#top-cities ul {list-style-type: none;
+  margin-top: 10px;
+}
+#top-cities li a{text-decoration: none;
+color:white;
+font-size:12px;
+}
+#top-cities li a :hover {text-decoration: underline;
+}
+select {width:150px;
+  height:35px;
+  border:none;
+  font-weight: bold;
+  outline: none;
+  border-radius:15px;
+  padding:10px;}
+  .uil-globe{
+    color: black;
+    font-size: 16px;
+    }
+  #Terms{background-color: #000;
+  display:flex;
+height:100px;
+justify-content: space-around;
+padding-right:30px;
+}
+#privacy{display:flex;
+justify-content: space-around;
+gap: 20px;
+font-size: smaller;}
+#privacy a{text-decoration:none;
+color:white;
+}
+#privacy a:hover{text-decoration: underline;
+}
+
+
+.uil{color:#c4c4c4;
+  font-size:40px;
+  font-weight:bolder;
+  
+}
+a .uil:hover{
+  color: #fff;
+}
+
+  
+  .Android{background-color: #494949;
+  width:200px;
+  height:80px;
+  border-radius:20px;}
+  
+  .Android a{text-decoration: none;
+  color:#c4c4c4;
+  font-size:12px;}
+
+  .Android a span{font-size:20px;
+  margin-left:50px;
+  margin-bottom:20px;
+text-decoration: none;}
+  
+  .App-store{margin-top:30px;
+  width:200px;
+  height:80px;
+  background-color:#494949;
+  border-radius:20px;}
+  
+  .App-store{
+    color:#c4c4c4;
+    font-size:12px;}
+    .App-store a{text-decoration: none;}
+    
+    .App-store a span{font-size:20px;
+      margin-left:50px;
+      margin-bottom:20px;}
+      #term-pic{width:50px;}
+  
